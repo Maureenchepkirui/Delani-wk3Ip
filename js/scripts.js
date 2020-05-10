@@ -8,6 +8,7 @@ $(document).ready(function(){
     $('.card').hover(function(event){
       $(".card").hover(function () {
         $(this).children(".card-1").fadeToggle(1500);
+          $(this).children('.show').toggle();
 
 
       });
