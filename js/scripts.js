@@ -17,11 +17,17 @@ $(document).ready(function(){
 
 
     $('form#myForm').submit(function(){
-      var name = $('#name').val();
-      var pass = $('#email').val();
-      var mess = $('#mess').val();
-      alert("Hi " +name+ " we have received your message and we will get in touch. Thank you for contacting us.");
-    });
+      var Name = $('#mce-FNAME').val();
+        var Email = $('#mce-EMAIL').val();
+        var Message = $('#mce-MESSAGE');
+        var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
+        if (Name == '' || Email == '' || Message == '') {
+            alert('Please make sure you have filled in the form correctly!');
+        } else {
+            alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+        }
+  });
+
 
     $("button").on('click', function(){
       $('form').each(function(){
