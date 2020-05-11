@@ -6,9 +6,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    padding-top: 230px;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 230px;
+  }
+  #services {
+      background-image: url('../assets/backgrounds/s_image.jpg');
+      color: #fff;
+      margin-bottom: 50px;
+      background-position: center;
+      padding-top: 120px;
+      padding-bottom: 80px;
+      background-size: cover;
+  }
+
+
+
+  #whatWeDo{
+    font-family: 'Carter One', cursive;
+     margin-bottom: 4%;
+     cursor: pointer;
+     font-size: 30px;
+  }
+  .what {
+      margin-bottom: 30px;
+  }
+  .toggle{
+      display: none;
   }
 
   #logo{
@@ -37,26 +61,15 @@
       margin-bottom: 20%;
   }
 
-  #about {
-      margin-top: 50px;
-      margin-bottom: 50px;
-  }
-  .fontsize {
-      font-size: cal(1vh + 1vw + .5vmin);
-  }
-
-
   h6 {
       height: 1vh;
   }
 
-  #about,
-  #service,
-  #pple,
-  .whatWeDo,
-  #contact,
-  .footer p {
-      font-family: 'Carter One', cursive;
+  .aboutUs {
+  text-align: center;
+  color: black;
+  font-size: small;
+  font-family: 'Yantramanav', sans-serif;
   }
   .col-md-12 {
       width: 100%;
@@ -68,27 +81,10 @@
   h1 {
       font-family: 'Carter One', cursive;
   }
-  .whatWeDo {
-      margin-bottom: 4%;
+
+
   }
-  .whatWeDo image:hover {
-      cursor: pointer,
-  }
-  .what {
-      margin-bottom: 30px;
-  }
-  .toggle{
-      display: none;
-  }
-  #service {
-      background-image: url('../assets/backgrounds/s_image.jpg');
-      color: #fff;
-      margin-bottom: 50px;
-      background-position: center;
-      padding-top: 120px;
-      padding-bottom: 80px;
-      background-size: cover;
-  }
+
   .card:hover img {
       transform: scale(1.2);
       transition: all 0.3s ease;
