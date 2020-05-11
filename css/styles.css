@@ -1,8 +1,12 @@
+
+
+/* import chosen google fonts googlefonts.com */
+
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Belleza|Calligraffitti|Chonburi|Forum|Imprima&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Belleza|Calligraffitti|Carter+One|Chonburi|Forum|Imprima&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amarante|Elsie|Paprika&display=swap');
 
-
+/* introduction */
 #intro{
     background-image: url('../assets/backgrounds/h_img.jpg');
     background-size: cover;
@@ -13,6 +17,7 @@
     padding-top: 230px;
     font-family: Calligraffitti;
   }
+  /* services section */
   #services {
       background-image: url('../assets/backgrounds/s_image.jpg');
       color: #fff;
@@ -23,9 +28,10 @@
       background-size: cover;
       font-family: Carter One;
   }
+  /* whatWeDo */
 
   #whatWeDo{
-    font-family:Belleza;
+  font-family:Belleza
      margin-bottom: 4%;
      cursor: pointer;
      font-size: 30px;
