@@ -13,18 +13,20 @@ $(document).ready(function(){
           });
 
 
-
-        $('form#myForm').submit(function(){
-          var name = $('#name').val();
-          var pass = $('#email').val();
-          var mess = $('#mess').val();
-          alert("Hi " +name+ " we have received your message and we will get in touch. Thank you for contacting us.");
-        });
-
-        $("button").on('click', function(){
-          alert("Hi " +name+ " we have received your message and we will get in touch. Thank you for contacting us.");
-        });
+          $("#submit").click(function(){
+     submit();
+     event.preventDefault();
+ });
+ });
 
 
-    });  event.preventDefault();
-    });
+function submit(){
+var name=document.getElementById("name").value;
+var messages = document.getElementById("message").value;
+if(name,messages == ''){
+   alert("Make sure all field are filled")
+}
+else{
+alert("Thank you for contacting use. we hae recived your message" + ' ' + name );
+}
+};
