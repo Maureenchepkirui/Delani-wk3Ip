@@ -27,6 +27,6 @@ if(name,messages == ''){
    alert("Make sure all field are filled")
 }
 else{
-alert("Thank you for contacting use. we hae recived your message" + ' ' + name );
+alert("Hello"+","+name+'!'+"We have received your message.Thank you for contacting us.We'll get in touch");
 }
 };
