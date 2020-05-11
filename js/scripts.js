@@ -15,6 +15,7 @@ $(document).ready(function(){
 
           $("#submit").click(function(){
      submit();
+
      event.preventDefault();
  });
  });
