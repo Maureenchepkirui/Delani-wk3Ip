@@ -31,14 +31,21 @@
   /* whatWeDo */
 
   #whatWeDo{
-  font-family:Belleza
-     margin-bottom: 4%;
-     cursor: pointer;
-     font-size: 30px;
-     font-family: Paprika;
+  font-family:Belleza;
+  text-align: center;
+  padding-top: 40px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: Paprika;
   }
   .what {
       margin-bottom: 30px;
+      font-family: Amarante;
+  }
+  .port{
+    font-family: Amarante;
+  }
+
   }
   .toggle{
       display: none;
@@ -97,6 +104,7 @@
   }
   h1 {
       font-family: Elsie;
+      text-align: center;
   }
     .card:hover img {
       transform: scale(1.2);
