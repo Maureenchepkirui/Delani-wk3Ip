@@ -28,6 +28,8 @@
       background-size: cover;
       font-family: Carter One;
   }
+
+
   /* whatWeDo */
 
   #whatWeDo{
@@ -59,6 +61,7 @@
       padding-top: 200px;
       padding-bottom: 30px;
   }
+
   * {
       box-sizing: border-box;
       margin: 0;
@@ -72,11 +75,7 @@
       padding-top: 9%;
       margin-bottom: 3%;
   }
-  .mouse {
-      margin-top: 20%;
-      padding: 35px 0;
-      margin-bottom: 20%;
-  }
+
 
   h6 {
       height: 1vh;
@@ -119,6 +118,7 @@
   .card-deck {
       padding: 1% 4%;
   }
+  /* paragraph tag */
   .ptag {
       padding: 5% 0;
       color: white;
@@ -135,13 +135,13 @@
       text-align: center;
       font-family: Alegreya;
   }
+  /* contact background image */
 
   .contact{
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height:50vh;
     font-family: Elsie;
   }
   .form-cont input {
@@ -163,13 +163,12 @@
     margin-top: 20px;
     margin-right: 30px;
     background-color: transparent;
-    color: white;
     font-family: Amarante;
   }
   #message{
-    margin-left:500px;
-   height:200px;
-   width:650px;
+   margin-left:500px;
+   height:150px;
+   width:500px;
    background-color: transparent;
    color: white;
    padding-top: 0%;
@@ -177,6 +176,7 @@
 
   }
   #email{
+
     background-color: transparent;
     color: white;
     font-family: Amarante;
@@ -184,6 +184,7 @@
   #submit{
     margin-left:1000px;
     font-family: Amarante;
+    color: blue;
   }
   h4{
     color:white;
@@ -210,3 +211,18 @@
   body{
       overflow-x: hidden;
   }
+  /* css animations */
+  #mouseClick {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    };
