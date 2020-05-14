@@ -4,6 +4,8 @@
 ## Description
 {This is a studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
 href:https://maureenchepkirui.github.io/Delani-wk3Ip/
+**SCREENSHOT**
+![]https://github.com/Maureenchepkirui/Delani-wk3Ip/blob/master/%20Delani%20Studio.jpg
 ## Setup/Installation Requirements
 * Atom/vs code
 Clone this repository to a location in your file system. `https://github.com/Maureenchepkirui/Delani-wk3Ip`Open terminal command line then navigate to the root folder of the application. `cd DELANI-STUDIO-PROJECT`and open `index.html`in the browser
