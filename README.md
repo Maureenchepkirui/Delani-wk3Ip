@@ -4,7 +4,7 @@
 ## Description
 {This is a fictional studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
 Live link href:https://maureenchepkirui.github.io/Delani-wk3Ip/
-![alt text](http:/home/maureenbett/Desktop/test/assets/delani.png)
+![alt text](https://github.com/Maureenchepkirui/Delani-wk3Ip/blob/master/%20Delani%20Studio.jpg)
 
 ## Setup/Installation Requirements
 * Atom/vs code
