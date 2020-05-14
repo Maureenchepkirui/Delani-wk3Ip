@@ -3,7 +3,7 @@
 #### By **{Maureen Chepkirui}**
 ## Description
 {This is a fictional studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
-Live link `https://maureenchepkirui.github.io/Delani-wk3Ip/`
+Live link href:https://maureenchepkirui.github.io/Delani-wk3Ip/
 ###SCREENSHOT
 ![alt text](http:/home/maureenbett/Desktop/test/assets/delani.png)
 /home/maureenbett/Pictures/Screenshot from 2020-05-14 10-42-11.png
