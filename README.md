@@ -2,7 +2,8 @@
 #### {website for DELANI STUDIO}, {8/15/2020}
 #### By **{Maureen Chepkirui}**
 ## Description
-{This is a fictional studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
+{This is a https://maureenchepkirui.github.io/Delani-wk3Ip/fictional studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
+href:`https://maureenchepkirui.github.io/Delani-wk3Ip/`
 ## Setup/Installation Requirements
 * Atom/vs code
 Clone this repository to a location in your file system. `https://github.com/Maureenchepkirui/Delani-wk3Ip`Open terminal command line then navigate to the root folder of the application. `cd DELANI-STUDIO-PROJECT`and open `index.html`in the browser
