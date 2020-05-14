@@ -2,7 +2,7 @@
 #### {website for DELANI STUDIO}, {8/15/2020}
 #### By **{Maureen Chepkirui}**
 ## Description
-{This is a https://maureenchepkirui.github.io/Delani-wk3Ip/fictional studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
+{This is a studio I built to aid better my grasp of various concepts in Bootstrap,css,Javascript }
 href:`https://maureenchepkirui.github.io/Delani-wk3Ip/`
 ## Setup/Installation Requirements
 * Atom/vs code
