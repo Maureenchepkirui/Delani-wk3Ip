@@ -27,6 +27,7 @@ var messages = document.getElementById("message").value;
 if(name,messages == ''){
    alert("Make sure all field are filled")
 }
+
 else{
 alert("Hello"+","+name+'!'+"We have received your message.Thank you for contacting us.We'll get in touch");
 }
